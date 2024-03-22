@@ -1,7 +1,6 @@
 # NPMRDS Travel Time Reliability
 Python script to calculate NPMRDS Travel Time Reliability from 15-minute-interval travel time data files downloaded from RITIS website.
 
-This is based on Sam Granato (ODOT)'s procedures for TransCAD. 
 Total processing time reduced from several hours in TransCAD to 10-20 minutes in Python. Optimization tricks were performed with Pandas to reduce the impact of the big files (3-4GB and ~100 million rows) in memory usage and processing time.
 
 ---
